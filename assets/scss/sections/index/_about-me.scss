@@ -1,0 +1,60 @@
+#about-me{
+    margin: 140px 0;
+    >.container{
+        text-align: center;
+        >.sec-heading{
+            margin-top: 12px;
+            margin-bottom: 32px;
+        }
+        >.sec-desc{
+            margin-bottom: 68px;
+        }
+        .about-me_list{
+            width: 100%;
+            margin-bottom: 76px;
+            .about-me_card{
+                width: calc((100% - 90px)/3);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                >i{
+                    font-size: 56px;
+                    margin-bottom: 36px;
+                }
+                &_name{
+                    color: $main-black;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 48px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .about-me_buttons{
+            >a{
+                padding: 20px 36px;
+                text-decoration: none;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 400;
+                display: inline-block;
+                text-transform: uppercase;                
+                &:first-child{
+                    background-color: $main-brown;
+                    color: #fff;
+                    margin-right: 10px;
+                }
+                &:last-child{
+                    color: $main-black;
+                    border: 1px solid $main-brown;
+                    &:hover{
+                        background-color: $main-brown;
+                        color: #fff;
+                        transition: .2s;
+                    }    
+                }
+            }
+        }
+    }
+}

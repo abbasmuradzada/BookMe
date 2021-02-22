@@ -1,0 +1,82 @@
+#services{
+    width: 100%;
+    .service-card{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 130px 0;
+        width: calc(100% / 3);
+        >i{
+            color: #fff;
+            font-size: 48px;
+            margin-bottom: 48px;
+        }
+        &-title{
+            font-family: Lora;
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        &-head{
+            color: #fff;
+            text-transform: uppercase;
+            font-family: Montserrat;
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 48px;
+            margin-bottom: 40px;
+        }
+        &-desc{
+            max-width: 350px;
+            text-align: center;
+            margin: 0 auto;
+            font-family: "Playfair Display";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-bottom: 57px;
+        }
+        &-btn{
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 20px 32px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: Montserrat;
+            display: inline-block;
+            width: 170px;
+            transition: .2s;
+            margin:  0 auto;
+            color: #fff;
+            border: 1px solid #fff;
+
+        }
+        &:nth-child(odd){
+            background-color: $main-brown;
+            .service-card-title{
+                color: #503c0e;
+            }
+            .service-card-desc{
+                color: #e7d3a5;
+            }
+            .service-card-btn:hover{
+                background-color: #fff;
+                color: $main-brown;
+            }
+        }
+        &:nth-child(even){
+            background-color: $main-black;
+            .service-card-title{
+                color: #9b927e;
+            }
+            .service-card-desc{
+                color: #8c8c8c;
+            }
+            .service-card-btn:hover{
+                background-color: #fff;
+                color: $main-black;
+            }
+        }
+    }
+}

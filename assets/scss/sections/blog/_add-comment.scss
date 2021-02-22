@@ -1,0 +1,47 @@
+#add-comment{
+    margin-bottom: 100px;
+    form{
+        >div{
+            width: 100%;
+            label{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                color: $main-black;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 26px;
+                >input{
+                    border: 1px solid #d2cfc9;
+                    background-color: #fafaf6;
+                    outline: none;
+                    width: 450px;
+                    transform: translateX(-190px);
+                }
+                >textarea{
+                    border: 1px solid #d2cfc9;
+                    background-color: #fafaf6;
+                    outline: none;
+                    width: 600px;
+                    height: 200px;
+                    transform: translateX(-40px);
+                    margin-bottom: 38px;
+                }
+        
+            }
+        }
+        >button{
+            border: none;
+            background-color: $main-brown;
+            color: #ffffff;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: uppercase;            
+            padding: 11px 22px;
+            margin-left: 75px;
+        }
+    }
+}

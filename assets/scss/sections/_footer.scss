@@ -1,0 +1,77 @@
+footer{
+    padding: 80px 0;
+    .footer-details{
+        >img{
+            margin-bottom: 42px;
+        }
+        .copyright{
+            color: #858585;
+            font-family: "Playfair Display";
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+    .footer-column{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        >a{
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-bottom: 12px;
+            color: #afafaf;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 30px;
+        }
+    }
+    .footer-address{
+        .add-bg{
+            position: relative;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            display: inline-block;
+            color: gray !important;
+            margin-right: 26px;
+            >i{
+                position: absolute;
+                left: 50%;
+                top: 22px;
+                font-size: 46px;
+                transform: translateX(-50%);
+                color: #fff;
+            }
+        }
+        .contact-details{
+            height: 130px;
+            &_name{
+                color: $main-black;
+                font-family: Montserrat;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 30px;
+                text-transform: uppercase;
+            }
+            &_address{
+                color: #858585;
+                font-family: "Playfair Display";
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            &_number{
+                color: #858585;
+                font-family: Montserrat;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 24px;
+                >b{
+                    color: $main-black;
+                }
+            }
+        }
+    }
+}

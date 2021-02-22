@@ -1,0 +1,77 @@
+#app-detail{
+    width: 100%;
+    padding: 150px 0;
+    background-color: #9b927e;
+    position: relative;
+    .add{
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-color: $main-black;
+        color: #fff;
+        font-size: 25px;
+        font-family: Montserrat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 200px;
+        bottom: -32px;
+    }
+    .header-details{
+        width: 500px;
+        .header-title{
+            color: #9f8447;
+            font-family: Lora;
+            font-size: 24px;
+            font-style: italic;
+            text-transform: capitalize;
+        }
+        .app-header{
+            margin-top: 18px;
+            margin-bottom: 36px;
+            color: $main-black;
+            font-family: Montserrat;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 48px;
+            text-align: left;
+            >span{
+                color: $main-brown;
+            }
+        }
+        .app-desc{
+            color: #5e5e5e;
+            font-family: "Playfair Display";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-bottom: 36px;
+        }
+        &_buttons{
+            >a{
+                padding: 20px 36px;
+                text-decoration: none;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 400;
+                display: inline-block;
+                text-transform: uppercase;                
+                &:first-child{
+                    background-color: $main-brown;
+                    color: #fff;
+                    margin-right: 10px;
+                }
+                &:last-child{
+                    color: $main-black;
+                    border: 1px solid $main-brown;
+                    &:hover{
+                        background-color: $main-brown;
+                        color: #fff;
+                        transition: .2s;
+                    }    
+                }
+            }
+        }
+    }
+}

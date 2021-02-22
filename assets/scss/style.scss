@@ -1,0 +1,37 @@
+@import './variables';
+@import './common';
+
+//SECTIONS
+@import './sections/footer';
+@import './sections/header';
+//INDEX SECTIONS
+@import './sections/index/app-details';
+@import './sections/index/about';
+@import './sections/index/services';
+@import './sections/index/news';
+@import './sections/index/facts';
+@import './sections/index/testimonials';
+@import './sections/index/about-me';
+@import './sections/index/clients';
+@import './sections/index/book';
+//BLOG SECTIONS
+@import './sections/blog/blog-post';
+@import './sections/blog/blog-content';
+@import './sections/blog/quote';
+@import './sections/blog/comments';
+@import './sections/blog/add-comment';
+@import './sections/blog/sidebar';
+
+.go-to-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: $main-brown;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 25px;
+    visibility: hidden;
+}

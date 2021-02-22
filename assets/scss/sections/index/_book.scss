@@ -1,0 +1,40 @@
+#book{
+    width: 100%;
+    background-color: $main-black;
+    padding: 140px 0;
+    .book-details{
+        width: 500px;
+        padding-top: 83px;
+        box-sizing: border-box;
+        .sec-heading{
+            margin-top: 12px;
+            margin-bottom: 40px;
+            color: #fff !important;
+        }
+        .featured{
+            font-family: Montserrat;
+            color: #fff;
+            margin-top: 69px;
+            margin-bottom: 36px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 36px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        .book-companies{
+            >img{
+                margin-right: 40px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .book-calendar{
+        width: 560px;
+        >img{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+header{
+    padding-top: 24px;
+    .header-left{
+        >img{
+            margin-right: 30px;
+        }
+        span.account{
+            color: #9f8447;
+            font-family: Lora;
+            font-size: 16px;
+            font-style: italic;
+            line-height: 33px;
+        }
+    }
+    .header-right{
+        .header-contact{
+            margin-bottom: 35px;
+            >i{
+                margin-right: 25px;
+                color: #989898;
+            }
+            .quotation-text{
+                color: #686868;
+                font-family: Montserrat;
+                font-size: 12px;
+                font-weight: 400;
+                text-align: right;
+                text-transform: uppercase;
+            }
+            .partition{
+                height: 32px;
+                width: 1px;
+                background-color: #dddddd;
+                margin: 0 15px;
+            }
+            .call-number{
+                color: $main-black;
+                font-family: Montserrat;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28px;
+                >img{
+                    margin-right: 4px;
+                }
+            }
+        }
+        >nav{
+            li{
+                cursor: pointer;
+                margin-left: 28px;
+                padding-bottom: 24px;
+                &.active{
+                    border-bottom: 2px solid $main-brown;
+                    >a{
+                        color: $main-black !important;
+                    }
+                }
+                >a{
+                    text-decoration: none;
+                    color: #686868;
+                    font-family: Montserrat;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 33px;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

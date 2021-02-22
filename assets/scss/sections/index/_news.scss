@@ -1,0 +1,70 @@
+#news{
+    width: 100%;
+    padding: 150px 0;
+    .container > div{
+        width: calc((100% - 60px)/3);
+    }
+    .news-main-section{
+        .sec-heading{
+            margin-top: 12px;
+            margin-bottom: 40px;
+        }
+        .more-news{
+            padding: 20px 36px;
+            text-decoration: none;
+            border: 1px solid $main-brown;
+            color: $main-black;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 400;
+            display: inline-block;
+            margin-top: 47px;
+            text-transform: uppercase;
+            &:hover{
+                background-color: $main-brown;
+                color: #fff;
+                transition: .2s;
+            }
+        }
+    }
+    .news-card{
+        width: 100%;
+        >img{
+            margin-bottom: 32px;
+        }
+        &_header{
+            font-family: Montserrat;
+            line-height: 36px;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $main-black;
+            margin-bottom: 14px;
+        }
+        &_desc{
+            color: #858585;
+            font-family: Lora;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+            >span{
+                color: $main-brown !important;
+            }
+        }
+        &_more{
+            color: $main-black;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 33px;
+            border: none;
+            background-color: initial;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            >i{
+                margin-left: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+#comments{
+    .comment{
+        &.reply{
+            width: calc(100% - 136px) !important;
+            margin-left: 136px;
+            margin-top: 60px;
+        }
+        >img{
+            width: 136px !important;
+            height: 120px !important;
+        }
+        &-details{
+            width: calc(100% - 170px);
+            &_heading{
+                width: 100%;
+                margin-bottom: 24px;
+                .comment-owner{
+                    color: #323634;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+                .comment-date{
+                    color: $main-black;
+                    font-family: Lora;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-transform: uppercase;
+                    >span{
+                        color: $main-brown;
+                    }
+                }
+            }
+            &_desc{
+                font-size: 15px !important;
+                margin-bottom: 24px;
+            }
+            &_btn{
+                width: 74px;
+                text-decoration: none;
+                padding: 11px 18px;
+                border: 1px solid $main-brown;
+                color: $main-black;
+                font-family: Montserrat;
+                font-size: 12px;
+                font-weight: 400;
+                text-transform: uppercase;
+                display: inline-block;
+            }
+        }
+    }
+}

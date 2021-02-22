@@ -1,0 +1,44 @@
+.container{
+    width: $container;
+    margin: 0 auto;
+}
+
+.sec-title{
+    font-size: 18px;
+    font-style: italic;
+    color: $main-brown;
+    font-family: 'Lora', serif;
+}
+
+.sec-heading{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: $main-black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sec-desc{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8c8c;
+    font-family: 'Playfair Display', serif;
+}
+
+.blog-divider{
+    height: 1px;
+    width: 100%;
+    background-color: rgba($color: #393333, $alpha: .2);
+    margin: 60px 0;
+}
+
+.comment-sec-title{
+    color: $main-black;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}

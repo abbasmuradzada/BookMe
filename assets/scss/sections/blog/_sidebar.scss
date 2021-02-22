@@ -1,0 +1,101 @@
+#sidebar{
+    padding: 80px 0;
+    .search-input{
+        width: 100%;
+        height: 48px;
+        border: 1px solid $main-brown;
+        outline: none;
+        background-color: #fafaf6;
+        &::placeholder{
+            opacity: 0.5;
+            color: #4d4441;
+            font-family: "Playfair Display";
+            font-size: 14px;
+            font-weight: 400;
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+    }
+    .categories{
+        .blog-divider{
+            margin: 0 !important;
+        }
+        .category{
+            color: $main-black;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 70px;
+            text-transform: uppercase;
+            >span{
+                color: $main-brown;
+            }
+            >i{
+                font-size: 15px;
+            }
+        }
+    }
+    .recent-posts{
+        width: 100%;
+        .recent-post{
+            >img{
+                margin-right: 20px;
+            }
+            &:first-child{
+                margin-bottom: 30px;
+            }
+            &_details{
+                &_heading{
+                    color: $main-black;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+                &_desc{
+                    color: $main-black;
+                    font-family: Lora;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-transform: uppercase;
+                }
+            }
+     
+        }
+   }
+   .archives{
+       >select{
+            width: 135px;
+            height: 34px;
+            border: 1px solid #9f8447;
+            color: $main-black;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: uppercase;
+       }
+   }
+   .tags{
+        width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+        >.tag{
+            border: 1px solid #9f8447; 
+            color: $main-black;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: uppercase;
+            padding: 11px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            &.active{
+                background-color: $main-brown;
+                color: #fff;
+            }
+        }
+   }
+}
