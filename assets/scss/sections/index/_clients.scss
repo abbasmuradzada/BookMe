@@ -3,17 +3,27 @@
     .sec-heading{
         margin-top: 18px;
         margin-bottom: 36px;
+        @media only screen and (max-width: 930px) {
+            text-align: center !important;
+        }
     }
     .client-list{
+        @media only screen and (max-width: 930px) {
+            height: 403px !important;
+        }
         margin-top: 52px;
         width: 100%;
         height: 201px;
         background-color: rgba($color: #000000, $alpha: .1);
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
         flex-wrap: wrap;
         .client-card{
+            @media only screen and (max-width: 930px) {
+                width: calc((100% - 2px)/3);
+            }
             width: calc((100% - 5px)/6);
             height: 100px;
             background-color: #fff;

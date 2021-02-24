@@ -23,6 +23,10 @@
 @import './sections/blog/sidebar';
 
 .go-to-top{
+    @media only screen and (max-width: 720px) {
+        right: 30px;
+        bottom: 30px;
+    }
     position: fixed;
     right: 50px;
     bottom: 50px;

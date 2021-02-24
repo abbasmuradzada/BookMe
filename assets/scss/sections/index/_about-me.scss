@@ -13,6 +13,10 @@
             width: 100%;
             margin-bottom: 76px;
             .about-me_card{
+                @media only screen and (max-width: 960px) {
+                    width: 100% !important;
+                    margin-bottom: 30px;
+                }
                 width: calc((100% - 90px)/3);
                 display: flex;
                 flex-direction: column;

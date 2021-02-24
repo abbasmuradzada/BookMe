@@ -12,6 +12,9 @@
     }
     .blog-info{
         &_single{
+            @media only screen and (max-width: 720px) {
+                width: 50%;
+            }
             color: $main-black;
             font-family: Lora;
             font-size: 12px;
@@ -26,6 +29,11 @@
     }
     .additional-pots{
         .related-post{
+            &:first-child{
+                @media only screen and (max-width: 1020px) {
+                    margin-bottom: 20px;
+                }        
+            }
             img{
                 width: 100%;
                 margin-bottom: 32px;

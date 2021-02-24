@@ -2,10 +2,14 @@
     width: 100%;
     .service-card{
         display: flex;
+        flex-wrap: wrap;
         text-align: center;
         justify-content: center;
         padding: 130px 0;
         width: calc(100% / 3);
+        @media only screen and (max-width: 1020px) {
+            width: 100% !important;
+        }
         >i{
             color: #fff;
             font-size: 48px;

@@ -3,6 +3,10 @@
     padding: 150px 0;
     .container > div{
         width: calc((100% - 60px)/3);
+        @media only screen and (max-width: 720px) {
+            width: 100% !important;
+            margin-bottom: 30px;
+        }
     }
     .news-main-section{
         .sec-heading{
@@ -28,8 +32,8 @@
         }
     }
     .news-card{
-        width: 100%;
         >img{
+            width: 100%;
             margin-bottom: 32px;
         }
         &_header{

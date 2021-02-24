@@ -1,15 +1,28 @@
 #comments{
     .comment{
         &.reply{
-            width: calc(100% - 136px) !important;
-            margin-left: 136px;
+            @media only screen and (max-width: 720px) {
+                width: calc(100% - 50px ) !important;
+                margin-left: 70px !important;
+            }
+            @media only screen and (min-width: 721px) {
+                width: calc(100% - 136px) !important;
+                margin-left: 136px;
+            }
             margin-top: 60px;
         }
         >img{
+            @media only screen and (max-width: 720px) {
+                width: 68px !important;
+                height: 60px !important;
+            }
             width: 136px !important;
             height: 120px !important;
         }
         &-details{
+            @media only screen and (max-width: 720px) {
+            width: calc(100% - 90px) !important;
+            }
             width: calc(100% - 170px);
             &_heading{
                 width: 100%;
@@ -20,8 +33,12 @@
                     font-size: 16px;
                     font-weight: 400;
                     text-transform: uppercase;
+                    
                 }
                 .comment-date{
+                    @media only screen and (max-width: 720px) {
+                        width: 100%!important;
+                    }
                     color: $main-black;
                     font-family: Lora;
                     font-size: 12px;

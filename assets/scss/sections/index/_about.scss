@@ -1,6 +1,10 @@
 #about{
     margin: 140px 0;
     .about-details{
+        @media only screen and (max-width: 860px) {
+            width: 100% !important;
+            margin-bottom: 30px;
+        }
         width: calc(100% - 500px - 30px);
         .sec-heading{
             margin-top: 12px;
@@ -60,9 +64,15 @@
         }
     }
     .about-images{
+        @media only screen and (max-width: 860px) {
+            width: 100% !important;
+        }
         width: 500px;
         &_img-column{
             width: 240px;
+            @media only screen and (max-width: 860px) {
+                width: calc((100% - 20px)/2)
+            }
             &:last-child{
                 margin-top: 130px;
             }

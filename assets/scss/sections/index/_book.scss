@@ -3,6 +3,9 @@
     background-color: $main-black;
     padding: 140px 0;
     .book-details{
+        @media only screen and (max-width: 720px) {
+            width: 100% !important;
+        } 
         width: 500px;
         padding-top: 83px;
         box-sizing: border-box;
@@ -24,6 +27,10 @@
         }
         .book-companies{
             >img{
+                @media only screen and (max-width: 720px) {
+                    display: block !important;
+                    margin-bottom: 20px;
+                }
                 margin-right: 40px;
                 &:last-child{
                     margin-right: 0;
@@ -32,6 +39,9 @@
         }
     }
     .book-calendar{
+        @media only screen and (max-width: 720px) {
+            width: 100% !important;
+        }
         width: 560px;
         >img{
             width: 100%;

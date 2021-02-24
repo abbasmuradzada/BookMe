@@ -1,6 +1,9 @@
 header{
-    padding-top: 24px;
+    padding-top: 24px !important;
     .header-left{
+        @media only screen and (max-width: 960px) {
+            width: 100%;
+        }
         >img{
             margin-right: 30px;
         }
@@ -13,6 +16,9 @@ header{
         }
     }
     .header-right{
+        @media only screen and (max-width: 960px) {
+            width: 100%;
+        }
         .header-contact{
             margin-bottom: 35px;
             >i{
@@ -45,6 +51,9 @@ header{
             }
         }
         >nav{
+        @media only screen and (max-width: 960px) {
+            display: none;
+        }
             li{
                 cursor: pointer;
                 margin-left: 28px;
